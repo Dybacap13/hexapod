@@ -1,16 +1,16 @@
 # Суставы
 <br/> j_spider_attachment -  тело ( фиксированный ) </br>
 <br/>Относительно головы  </br>
-<br/>lf   rf
-<br/>lm   rm
-<br/>lr   rr
-<br/>  Привод у туловища
-<br/>j_c1_lf 
-<br/>j_c1_rf
-<br/>j_c1_lm
-<br/>j_c1_rm
-<br/>j_c1_lr
-<br/> j_c1_rr
+<br/>lf   rf </br>
+<br/>lm   rm </br>
+<br/>lr   rr </br>
+<br/>  Привод у туловища </br>
+<br/>j_c1_lf  </br>
+<br/>j_c1_rf </br>
+<br/>j_c1_lm </br>
+<br/>j_c1_rm </br>
+<br/>j_c1_lr </br>
+<br/> j_c1_rr </br>
   Привод колена
 j_thigh_lf
 j_thigh_rf
