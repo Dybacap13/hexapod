@@ -1,6 +1,6 @@
 # Суставы
-j_spider_attachment -  тело ( фиксированный )
-Относительно головы
+j_spider_attachment -  тело ( фиксированный ) /n
+Относительно головы \n
 lf   rf
 lm   rm
 lr   rr
