@@ -1,5 +1,5 @@
 <h1> Суставы </h1>
-<br/> j_spider_attachment -  тело ( фиксированный ) </br>
+<p/> j_spider_attachment -  тело ( фиксированный ) </p>
 <h2>Относительно головы  </h2>
 <br/>lf   rf </br>
 <br/>lm   rm </br>
