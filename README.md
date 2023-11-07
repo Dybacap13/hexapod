@@ -5,8 +5,8 @@
 <li>lm   rm   --средняя левая/правая </li>
 <li>lr   rr   --задняя левая/правая </li>
 <h2>  Привод у туловища </h2>
-<br/>j_c1_lf  </br>
-<br/>j_c1_rf </br>
+j_c1_lf  </n>
+j_c1_rf <\n>
 <br/>j_c1_lm </br>
 <br/>j_c1_rm </br>
 <br/>j_c1_lr </br>
