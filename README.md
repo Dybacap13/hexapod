@@ -1,9 +1,9 @@
 <h1> Суставы </h1>
 <p/> j_spider_attachment -  тело ( фиксированный ) </p>
 <h2>Относительно головы  </h2>
-<br/>lf   rf </br>
-<br/>lm   rm </br>
-<br/>lr   rr </br>
+<p/>lf   rf </p>
+<p/>lm   rm </p>
+<p/>lr   rr </p>
 <h2>  Привод у туловища </h2>
 <br/>j_c1_lf  </br>
 <br/>j_c1_rf </br>
