@@ -1,24 +1,24 @@
-# Суставы
+<h1> Суставы </h1>
 <br/> j_spider_attachment -  тело ( фиксированный ) </br>
-<br/>Относительно головы  </br>
+<h2>Относительно головы  </h2>
 <br/>lf   rf </br>
 <br/>lm   rm </br>
 <br/>lr   rr </br>
-<br/>  Привод у туловища </br>
+<h2>  Привод у туловища </h2>
 <br/>j_c1_lf  </br>
 <br/>j_c1_rf </br>
 <br/>j_c1_lm </br>
 <br/>j_c1_rm </br>
 <br/>j_c1_lr </br>
 <br/> j_c1_rr </br>
-  Привод колена
+ <h2> Привод колена</h2>
 j_thigh_lf
 j_thigh_rf
 j_thigh_lm
 j_thigh_rm
 j_thigh_lr
 j_thigh_rr
-  Привод у стопы
+ <h2> Привод у стопы</h2>
 j_tibia_lf_
 j_tibia_rf
 j_tibia_lm
