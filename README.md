@@ -5,12 +5,12 @@
 <li>lm   rm   --средняя левая/правая </li>
 <li>lr   rr   --задняя левая/правая </li>
 <h2>  Привод у туловища </h2>
-j_c1_lf <\n>
-j_c1_rf <\n>
-j_c1_lm <\n>
-j_c1_rm <\n>
-j_c1_lr <\n>
-j_c1_rr <\n>
+j_c1_lf </n>
+j_c1_rf </n>
+j_c1_lm </n>
+j_c1_rm </n>
+j_c1_lr </n>
+j_c1_rr </n>
  <h2> Привод колена</h2>
 j_thigh_lf;      j_thigh_rf;
 j_thigh_lm
