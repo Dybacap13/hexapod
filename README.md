@@ -3,8 +3,8 @@
 <h3>roslaunch spider_gazebo srider_real_gazebo.launch </h3>h3>
 <br>Как было организовано:</n>
 <br>в файле spider_main.h написана функция </n>
-<br>void Spider::interpolationOfAngles(JointState current_angles,
-                                   JointState target_angles, bool increase) </n>
+<h3>void Spider::interpolationOfAngles(JointState current_angles,
+                                   JointState target_angles, bool increase) </h3>
 
 
 <li>текущее положение углов считывается с контроллеров само </li>
