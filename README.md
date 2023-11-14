@@ -1,6 +1,6 @@
 <h1> Изменения на 14 ноября </h1>
 <h1> Запуск, робот встанет и немного пройдёn</h1>
-<h3>roslaunch spider_gazebo srider_real_gazebo.launch </h3>h3>
+<h3>roslaunch spider_gazebo srider_real_gazebo.launch </h3>
 <br>Как было организовано:</n>
 <br>в файле spider_main.h написана функция </n>
 <h3>void Spider::interpolationOfAngles(JointState current_angles,
