@@ -76,29 +76,28 @@
 
 **_Привод у туловища_**
 
-     <br> j_c1_lf </n>
-     <br>j_c1_rf </n>
-     <br>j_c1_lm </n>
-     <br>j_c1_rm </n>
-     <br>j_c1_lr </n>
-     <br>j_c1_rr </n>
+     j_c1_lf 
+     j_c1_rf 
+     j_c1_lm 
+     j_c1_rm 
+     j_c1_lr 
+     j_c1_rr 
 
  **_Привод колена_**
- 
-     <br>j_thigh_lf</n>
-     <br>j_thigh_rf</n>
-     <br>j_thigh_lm</n>
-     <br>j_thigh_rm</n>
-     <br>j_thigh_lr</n>
-     <br>j_thigh_rr</n>
+     j_thigh_lf
+     j_thigh_rf
+     j_thigh_lm
+     j_thigh_rm
+     j_thigh_lr
+     j_thigh_rr
 
- **_Привод у стопы_**
- 
-     <br>j_tibia_lf_</n>
-     <br>j_tibia_rf</n>
-     <br>j_tibia_lm</n>
-     <br>j_tibia_rm</n>
-     <br>j_tibia_lr</n>
-     <br>j_tibia_rr</n>
+**_Привод у стопы_**
+
+     j_tibia_lf_
+     j_tibia_rf
+     j_tibia_lm
+     j_tibia_rm
+     j_tibia_lr
+     j_tibia_rr
 
 
