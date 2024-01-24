@@ -8,23 +8,42 @@
 
 **_hexapod_controller_**
 
-This is the main node of the stack. It handles all control, gait, IK and servo communications with the legs. Minimal latency was required to keep the gait smooth and synced with odometry hence the reason they are all combined in this one node.
+Главная нода, отвечает за расчёт обратной кинематики, генерирование походки .Пока используются следующие топики:
 
 *Subscribed Topics*
 
-     cmd_vel (geometry_msgs/Twist) Velocity command. 
-     body_scalar (geometry_msgs::AccelStamped) Scalar to modifiy the orientation of the body.
-     head_scalar (geometry_msgs::AccelStamped) Scalar to modifiy the pan and tilt of the optional turret.
-     state (std_msgs::Bool) Bool array to record state of the hexapod. Standing up, sitting etc.
-     imu/data (sensor_msgs::Imu) Used in optional auto body leveling on non level ground.
+     cmd_vel (geometry_msgs/Twist)  - задание скорости движения гексапода
+     state (std_msgs::Bool)  - true -робот встанет
      
 *Published Topics*
 
-    sounds (hexapod_msgs::Sounds) Custom message to send sound cues to the optional sound package.
-    joint_states (sensor_msgs::JointState) Joint states for rviz and such.
-    odometry/calculated (nav_msgs::Odometry) Calculated odometry from the gait system in the package.
-    twist (geometry_msgs::TwistWithCovarianceStamped) Twist message syncronized with the gait system. 
-     
+    joint_states_to_gazebo (sensor_msgs::JointState) - публикует рассчитанное положение суставов.
+    
+**_hexapod_controller_gazebo**
+Отвечает за контроль в Gazebo
+
+*Subscribed Topics*
+joint_states_to_gazebo (sensor_msgs::JointState) - считывает рассчитанное положение суставов и публикует в Gazebo
+
+*Published Topics*
+<br>/spider/j_c1_lf_position_controller/command</n>
+<br>/spider/j_c1_lm_position_controller/command</n>
+<br>/spider/j_c1_lr_position_controller/command</n>
+<br>/spider/j_c1_rf_position_controller/command</n>
+<br>/spider/j_c1_rm_position_controller/command</n>
+<br>/spider/j_c1_rr_position_controller/command</n>
+<br>/spider/j_thigh_lf_position_controller/command</n>
+<br>/spider/j_thigh_lm_position_controller/command</n>
+<br>/spider/j_thigh_lr_position_controller/command</n>
+<br>/spider/j_thigh_rf_position_controller/command</n>
+<br>/spider/j_thigh_rm_position_controller/command</n>
+<br>/spider/j_thigh_rr_position_controller/command</n>
+<br>/spider/j_tibia_lf_position_controller/command</n>
+<br>/spider/j_tibia_lm_position_controller/command</n>
+<br>/spider/j_tibia_lr_position_controller/command</n>
+<br>/spider/j_tibia_rf_position_controller/command</n>
+<br>/spider/j_tibia_rm_position_controller/command</n>
+<br>/spider/j_tibia_rr_position_controller/command</n>
 
 **_hexapod_bringup_**
 
