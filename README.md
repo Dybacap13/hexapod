@@ -19,7 +19,8 @@
 
     joint_states_to_gazebo (sensor_msgs::JointState) - публикует рассчитанное положение суставов.
     
-**_hexapod_controller_gazebo**
+**_hexapod_controller_gazebo_**
+
 Отвечает за контроль в Gazebo
 
 *Subscribed Topics*
@@ -28,36 +29,43 @@
 
 *Published Topics*
 
-     <br>/spider/j_c1_lf_position_controller/command</n>
-     <br>/spider/j_c1_lm_position_controller/command</n>
-     <br>/spider/j_c1_lr_position_controller/command</n>
-     <br>/spider/j_c1_rf_position_controller/command</n>
-     <br>/spider/j_c1_rm_position_controller/command</n>
-     <br>/spider/j_c1_rr_position_controller/command</n>
-     <br>/spider/j_thigh_lf_position_controller/command</n>
-     <br>/spider/j_thigh_lm_position_controller/command</n>
-     <br>/spider/j_thigh_lr_position_controller/command</n>
-     <br>/spider/j_thigh_rf_position_controller/command</n>
-     <br>/spider/j_thigh_rm_position_controller/command</n>
-     <br>/spider/j_thigh_rr_position_controller/command</n>
-     <br>/spider/j_tibia_lf_position_controller/command</n>
-     <br>/spider/j_tibia_lm_position_controller/command</n>
-     <br>/spider/j_tibia_lr_position_controller/command</n>
-     <br>/spider/j_tibia_rf_position_controller/command</n>
-     <br>/spider/j_tibia_rm_position_controller/command</n>
-     <br>/spider/j_tibia_rr_position_controller/command</n>
-
-**_hexapod_bringup_**
-
-This package has all the launch files. From simple locomotion only to full mapping and localization examples. 
-
-**_hexapod_description_**
-
-This package has all the param files. You will start with one of the param config files to describe your hexapod. It also has params for different telop controllers. The xacro and meshes also reside in this package.
+     /spider/j_c1_lf_position_controller/command
+     /spider/j_c1_lm_position_controller/command
+     /spider/j_c1_lr_position_controller/command
+     /spider/j_c1_rf_position_controller/command
+     /spider/j_c1_rm_position_controller/command
+     /spider/j_c1_rr_position_controller/command
+     /spider/j_thigh_lf_position_controller/command
+     /spider/j_thigh_lm_position_controller/command
+     /spider/j_thigh_lr_position_controller/command
+     /spider/j_thigh_rf_position_controller/command
+     /spider/j_thigh_rm_position_controller/command
+     /spider/j_thigh_rr_position_controller/command
+     /spider/j_tibia_lf_position_controller/command
+     /spider/j_tibia_lm_position_controller/command
+     /spider/j_tibia_lr_position_controller/command
+     /spider/j_tibia_rf_position_controller/command
+     /spider/j_tibia_rm_position_controller/command
+     /spider/j_tibia_rr_position_controller/command
 
 
+**_spider_description_**
 
-<h1> Суставы </h1>
+Хранит парамты гексапода, его URDF-описание
+
+
+**_spider_gazebo_**
+
+     roslaunch spider_gazebo srider_gazebo.launch 
+     
+## Инструкция 
+
+     roslaunch spider_gazebo srider_gazebo.launch 
+     rosrun hexapod_controller hexapod_controller_gazebo 
+     rosrun hexapod_controller hexapod_controller 
+
+
+## Суставы 
 <p/> j_spider_attachment -  тело ( фиксированный ) </p>
 <h2>---->Относительно головы -->  суффиксы  </h2>
 <li>lf   rf   --передняя левая/правая</li>
