@@ -1,7 +1,7 @@
 ## Вдохновители
-<a href=https://github.com/HumaRobotics/phantomx_gazebo/tree/master>PhantomX</a
+<a href=https://github.com/HumaRobotics/phantomx_gazebo/tree/master>PhantomX</a>
 <br> </n>
-<a href=https://github.com/KevinOchs/hexapod_ros>Golem</a
+<a href=https://github.com/KevinOchs/hexapod_ros>Golem</a>
 
 
 
