@@ -1,3 +1,8 @@
+## Вдохновители
+<a href=https://github.com/HumaRobotics/phantomx_gazebo/tree/master>  Phantom X</a
+<a href=https://github.com/KevinOchs/hexapod_ros>  Golem </a
+
+
 ##  Nodes
 
 **_hexapod_controller_**
@@ -87,5 +92,5 @@ This package has all the param files. You will start with one of the param confi
 <li>даже двигает суставы в газебо (но оочень медленно)</li>
 <li>не понимаю код, и математику, и смысл, и вообще не хочу его больше видеть</li>
 <h1>Источник модели</h1>
-<a href=https://github.com/HumaRobotics/phantomx_gazebo/tree/master>Модель в газебо взята отсюда</a
+
 
