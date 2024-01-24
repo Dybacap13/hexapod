@@ -92,35 +92,5 @@
 <br>j_tibia_rm</n>
 <br>j_tibia_lr</n>
 <br>j_tibia_rr</n>
-<h1>Запуск</h1>
-<h3>roslaunch spider_gazebo srider_gazebo.launch </h3>
-<h1> Расшифровка топиков <h1> 
-<h2>Контроллеры ( отвечают за движение суставами)</h2>
-<br>/spider/j_c1_lf_position_controller/command</n>
-<br>/spider/j_c1_lm_position_controller/command</n>
-<br>/spider/j_c1_lr_position_controller/command</n>
-<br>/spider/j_c1_rf_position_controller/command</n>
-<br>/spider/j_c1_rm_position_controller/command</n>
-<br>/spider/j_c1_rr_position_controller/command</n>
-<br>/spider/j_thigh_lf_position_controller/command</n>
-<br>/spider/j_thigh_lm_position_controller/command</n>
-<br>/spider/j_thigh_lr_position_controller/command</n>
-<br>/spider/j_thigh_rf_position_controller/command</n>
-<br>/spider/j_thigh_rm_position_controller/command</n>
-<br>/spider/j_thigh_rr_position_controller/command</n>
-<br>/spider/j_tibia_lf_position_controller/command</n>
-<br>/spider/j_tibia_lm_position_controller/command</n>
-<br>/spider/j_tibia_lr_position_controller/command</n>
-<br>/spider/j_tibia_rf_position_controller/command</n>
-<br>/spider/j_tibia_rm_position_controller/command</n>
-<br>/spider/j_tibia_rr_position_controller/command</n>
-<h1>Пакеты</h1>
-<h2>walking </h2>
-Моя неудавшаяся попытка заставить робота ходить. Что написано:
-<li> считывает состояние робота из топика /spider/joint_states </li>
-<li> подписывается на все топики, чтобы публиковать команды о смене позиции сустава</li>
-<li>даже двигает суставы в газебо (но оочень медленно)</li>
-<li>не понимаю код, и математику, и смысл, и вообще не хочу его больше видеть</li>
-<h1>Источник модели</h1>
 
 
