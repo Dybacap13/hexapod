@@ -23,27 +23,29 @@
 Отвечает за контроль в Gazebo
 
 *Subscribed Topics*
-joint_states_to_gazebo (sensor_msgs::JointState) - считывает рассчитанное положение суставов и публикует в Gazebo
+
+     joint_states_to_gazebo (sensor_msgs::JointState) - считывает рассчитанное положение суставов и публикует в Gazebo
 
 *Published Topics*
-<br>/spider/j_c1_lf_position_controller/command</n>
-<br>/spider/j_c1_lm_position_controller/command</n>
-<br>/spider/j_c1_lr_position_controller/command</n>
-<br>/spider/j_c1_rf_position_controller/command</n>
-<br>/spider/j_c1_rm_position_controller/command</n>
-<br>/spider/j_c1_rr_position_controller/command</n>
-<br>/spider/j_thigh_lf_position_controller/command</n>
-<br>/spider/j_thigh_lm_position_controller/command</n>
-<br>/spider/j_thigh_lr_position_controller/command</n>
-<br>/spider/j_thigh_rf_position_controller/command</n>
-<br>/spider/j_thigh_rm_position_controller/command</n>
-<br>/spider/j_thigh_rr_position_controller/command</n>
-<br>/spider/j_tibia_lf_position_controller/command</n>
-<br>/spider/j_tibia_lm_position_controller/command</n>
-<br>/spider/j_tibia_lr_position_controller/command</n>
-<br>/spider/j_tibia_rf_position_controller/command</n>
-<br>/spider/j_tibia_rm_position_controller/command</n>
-<br>/spider/j_tibia_rr_position_controller/command</n>
+
+     <br>/spider/j_c1_lf_position_controller/command</n>
+     <br>/spider/j_c1_lm_position_controller/command</n>
+     <br>/spider/j_c1_lr_position_controller/command</n>
+     <br>/spider/j_c1_rf_position_controller/command</n>
+     <br>/spider/j_c1_rm_position_controller/command</n>
+     <br>/spider/j_c1_rr_position_controller/command</n>
+     <br>/spider/j_thigh_lf_position_controller/command</n>
+     <br>/spider/j_thigh_lm_position_controller/command</n>
+     <br>/spider/j_thigh_lr_position_controller/command</n>
+     <br>/spider/j_thigh_rf_position_controller/command</n>
+     <br>/spider/j_thigh_rm_position_controller/command</n>
+     <br>/spider/j_thigh_rr_position_controller/command</n>
+     <br>/spider/j_tibia_lf_position_controller/command</n>
+     <br>/spider/j_tibia_lm_position_controller/command</n>
+     <br>/spider/j_tibia_lr_position_controller/command</n>
+     <br>/spider/j_tibia_rf_position_controller/command</n>
+     <br>/spider/j_tibia_rm_position_controller/command</n>
+     <br>/spider/j_tibia_rr_position_controller/command</n>
 
 **_hexapod_bringup_**
 
