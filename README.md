@@ -67,31 +67,34 @@
 
 
 ## Суставы 
-<p/> j_spider_attachment -  тело ( фиксированный ) </p>
-<h2>---->Относительно головы -->  суффиксы  </h2>
-<li>lf   rf   --передняя левая/правая</li>
-<li>lm   rm   --средняя левая/правая </li>
-<li>lr   rr   --задняя левая/правая </li>
+
+Относительно головы -->  суффиксы  
+     <li>lf   rf   --передняя левая/правая</li>
+     <li>lm   rm   --средняя левая/правая </li>
+     <li>lr   rr   --задняя левая/правая </li>
+
 **_Привод у туловища_**
-<br> j_c1_lf </n>
-<br>j_c1_rf </n>
-<br>j_c1_lm </n>
-<br>j_c1_rm </n>
-<br>j_c1_lr </n>
-<br>j_c1_rr </n>
- <h2> Привод колена</h2>
-<br>j_thigh_lf</n>
-<br>j_thigh_rf</n>
-<br>j_thigh_lm</n>
-<br>j_thigh_rm</n>
-<br>j_thigh_lr</n>
-<br>j_thigh_rr</n>
- <h2> Привод у стопы</h2>
-<br>j_tibia_lf_</n>
-<br>j_tibia_rf</n>
-<br>j_tibia_lm</n>
-<br>j_tibia_rm</n>
-<br>j_tibia_lr</n>
-<br>j_tibia_rr</n>
+     <br> j_c1_lf </n>
+     <br>j_c1_rf </n>
+     <br>j_c1_lm </n>
+     <br>j_c1_rm </n>
+     <br>j_c1_lr </n>
+     <br>j_c1_rr </n>
+
+ **_Привод колена_**
+     <br>j_thigh_lf</n>
+     <br>j_thigh_rf</n>
+     <br>j_thigh_lm</n>
+     <br>j_thigh_rm</n>
+     <br>j_thigh_lr</n>
+     <br>j_thigh_rr</n>
+
+ **_Привод у стопы_**
+     <br>j_tibia_lf_</n>
+     <br>j_tibia_rf</n>
+     <br>j_tibia_lm</n>
+     <br>j_tibia_rm</n>
+     <br>j_tibia_lr</n>
+     <br>j_tibia_rr</n>
 
 
