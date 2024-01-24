@@ -1,4 +1,4 @@
-## 4. Nodes
+##  Nodes
 
 **_hexapod_controller_**
 
@@ -27,32 +27,6 @@ This package has all the launch files. From simple locomotion only to full mappi
 **_hexapod_description_**
 
 This package has all the param files. You will start with one of the param config files to describe your hexapod. It also has params for different telop controllers. The xacro and meshes also reside in this package.
-
-
-
-<h1> Изменения на 14 ноября </h1>
-<h1> Запуск, робот встанет и немного пройдёn</h1>
-<h3>roslaunch spider_gazebo srider_real_gazebo.launch </h3>
-<br>Как было организовано:</n>
-<br>в файле spider_main.h написана функция </n>
-<h3>void Spider::interpolationOfAngles(JointState current_angles,
-                                   JointState target_angles, bool increase) </h3>
-
-
-<li>текущее положение углов считывается с контроллеров само </li>
-<li>желаемое нужно задать </li>
-<li>третий аргумент пока бесполезен</li>
-
-<br>С помощью умножения на коэфициент мы достигаем (плавно) желаемого положения. Происход не за один раз, чем больше коэфициент, тем быстрее достигается положение.
-Эта же функция публикует итоговые и промежуточные углы в контроллеры газебо (всё в радианах)
-Когда текущее положение = желаемому - функция выходит
-Теперь в главном исполняемом файле src просто вызываем функцию, которой даёт желаемое положение</n>
-
-<br>В начале - встаём, углы 0 30 120 градусов в радианах - отправили
-Потом ходьба, делает цикл из 4 сообщений (комментарии в самом файле будут понятнее)</n>
-
-
-
 
 
 
